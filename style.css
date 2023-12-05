@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Libre+Baskerville:ital@1&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Inter', sans-serif;
+}
+
+#bannerSection{
+    display: flex;
+    padding: 60px 180px 60px 130px;
+}
+
+#bannerTextDiv>h1{
+font-size: 65px;
+font-weight: 700;
+}
+
+#bannerTextDiv>p{
+color:#707070;
+font-size: 18px;
+line-height: 28px;
+}
+
+.donateBtn{
+    padding: 16px 12px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+}
+
+#watchBtn{
+    border: none;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#bannerImgDiv{
+    position: relative;
+}
+
+#backgroundImg1{
+position: absolute;
+bottom: 40px;
+right: 1px;
+height: 400px ;
+width: 800px ;
+}
+
+#backgroundImg2{
+position: absolute;
+right: 50px;
+bottom:40px ;
+height: 330px;
+width: 700px;
+}
+
+/* banner section end  */
+
+#donateSec{
+    text-align: center;
+    padding: 60px 300px;
+}
+
+#donateSec>h1{
+    text-shadow: 4px 4px 5px rgb(158, 152, 152);
+    font-size: 50px;
+}
+
+#donateSec>p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+}
+
+#amountDiv{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+align-items: center;
+grid-gap: 8px;
+
+}
+
+#amountDiv>button{
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    background-color: #faecec;
+    padding: 40px 0;
+    border: none;
+}
+
+#amountDiv>#pinkBtn{
+   color: #FF5959;
+   border:3px solid #FF5959;
+   border-radius: 10px;
+}
+
+#amountMinorDiv>p{
+    font-size: 16px;
+    color: #707070;
+}
+
+hr{
+    width: 500px;
+}
+
+/* donate plan section start  */
+
+#donatePlanSec{
+    padding: 60px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#donatePlanSec>h1{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#donatePlanSec>p{
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+}
+
+#donatePlanMajorDiv{
+    display: flex;
+    gap: 24px;
+}
+
+.cardDiv{
+    margin: 50px 0;
+    height: 250px;
+    width: 280px;
+    padding: 60px 20px;
+    background: rgba(79, 157, 166, 0.116);
+    
+}
+
+.cardDiv>img{
+    height: 50px;
+    width: 60px;
+}
+
+.cardDiv>h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cardDiv>p{
+    font-size: 16px;
+color: #707070;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+
+
+    #bannerSection{
+       
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    
+#bannerImgDiv>img{
+    height: 400px;
+}
+
+    #bannerTextDiv>h1{
+    font-size: 40px;
+    font-weight: 600;
+    }
+    
+    #bannerTextDiv>p{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 20px;
+    }
+    
+br{
+    display: none;
+}
+
+#bannerTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+    #donateBtn{
+        display: block;
+    }
+    
+    #bannerImgMainDiv{
+        position: relative;
+    }
+
+    #backgroundImg1{
+    position: absolute;
+    top: 110px;
+    left: -20px;
+    height: 230px ;
+    width: 370px;
+    
+
+    }
+    
+    #backgroundImg2{
+        display: none;
+    position: absolute;
+    top: 130px;
+    height: 100px;
+    width: 200px;
+    }
+    
+    /* #donation section  end  */
+    
+    #donatePlanSec{
+        padding: 10px 15px;
+    }
+    
+    #donatePlanSec>h1{
+        padding: auto;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    #donatePlanSec>p{
+        font-size: 16px;
+        color: #707070;
+        text-align: center;
+    }
+    
+    #donatePlanMajorDiv{
+        display: flex;
+        gap: 24px;
+    }
+    
+    .cardDiv{
+        margin: 50px 0;
+        height: 250px;
+        width: 280px;
+        padding: 60px 20px;
+        background: rgba(79, 157, 166, 0.116);
+        
+    }
+    
+    .cardDiv>img{
+        height: 50px;
+        width: 60px;
+    }
+    
+    .cardDiv>h3{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .cardDiv>p{
+        font-size: 16px;
+    color: #707070;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
