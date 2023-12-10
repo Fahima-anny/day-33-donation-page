@@ -459,11 +459,86 @@ text-align: justify;
     }
 
 
-
-
-
-
-
+    /* about us section start  */
+    #aboutUsSec{
+        padding: 10px 20px;
+    }
+    
+    #aboutUsSecDiv1{
+        text-align: center;
+        padding-bottom: 20px;
+        grid-template-columns:repeat(1,1fr) ;
+        justify-content: center;
+     grid-gap: 20px;
+    }
+    
+    .rowDiv>h1{
+        font-size: 24px;
+    }
+    
+    .rowDiv>p{
+        text-align: justify;
+        font-size: 15px;
+        line-height: 20px; 
+    }
+    
+    #aboutUsSecDiv1>img , #aboutUsSecDiv2>img{
+        padding: auto;
+        margin: auto;
+        height: 320px;
+    }
+    
+    #aboutUsSecDiv2{
+        text-align: center;
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        justify-content: center;
+        grid-gap: 20px;
+    }
+    
+    #aboutUsSecDiv2>.rowDiv{
+        order:1;
+    }
+    
+    #aboutUsSecDiv2>img{
+        order:2;
+    }
+    
+    /* upadate section start  */
+    
+    #updateSection{
+        text-align: center;
+        padding:20px;
+    }
+    
+    #updateSection>h1{
+        font-size: 24px;  
+    }
+    
+    #updateSection>p{
+        text-align: justify;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    #updateSection>div{
+    padding: 20px 0;
+    }
+    
+    #emailBtn{
+    padding: 14px 80px 14px 17px;
+    }
+    
+    #subscribeBtn{
+        padding: 10px 110px;
+    }
+    
+    
+    /* footer start  */
+    
+    footer{
+    padding: 10px 0;
+    }
 
 
 
